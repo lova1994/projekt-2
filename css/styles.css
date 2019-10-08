@@ -85,6 +85,44 @@ html {
     
 }
 
+/* HEADER STYLE */
+
+header {
+    text-align: center;
+    background-color: #363636;
+    color:#F4F4F4;
+    padding:5%;
+    font-family: raleway;
+}
+
+header h2 {
+    font-size: 4em;
+}
+
+header h3 {
+    font-size: 2.5em;
+}
+
+header p {
+    word-spacing: 1em;
+    font-size: 1.3em;
+    padding-top: 2%;
+}
+
+.container-services {
+
+
+text-align: center;
+display: flex;
+flex-direction: row;
+}
+
+.box {
+width:33%;
+}
+
+/* MOBIL */
+
 @media (max-width:500px ) {
 
     .toggle-button {    
