@@ -224,6 +224,24 @@ footer {
     min-height: 400px;
     background: #363636;
     color: #F4F4F4;
+    display:flex;
+    
+}
+
+.box {
+    flex:1;
+    text-align: center;
+}
+
+footer > .box {
+    padding-top:15px;
+}
+
+aside {
+    background: #363636;
+    text-align: center;
+    padding:3%;
+    color: #F4F4F4;
 }
 
 /* DESKTOP CSS */
