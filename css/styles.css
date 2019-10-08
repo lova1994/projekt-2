@@ -109,19 +109,38 @@ header p {
     padding-top: 2%;
 }
 
-.container-services {
 
 
-text-align: center;
-display: flex;
-flex-direction: row;
+.services, .container-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:3%;
+    
 }
 
-.box {
-width:33%;
+.services h2 {
+    font-size: 3em;
+    color: #27D07C;
 }
 
-/* MOBIL */
+.container-icons > div {
+    text-align: center;
+}
+
+.container-icons h2 {
+    font-size: 3em;
+
+}
+
+.container-icons i {
+    font-size: 10em;
+    color: #27D07C;
+}
+
+
+
+/* MOBIL-MENY */
 
 @media (max-width:500px ) {
 
