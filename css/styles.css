@@ -111,7 +111,7 @@ header p {
 
 
 
-.services, .container-icons {
+.services {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,9 +136,113 @@ header p {
 .container-icons i {
     font-size: 10em;
     color: #27D07C;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.contact {
+    margin-top: 3%;
+    background: url(../img/bakgrund-gron.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    width:100%;
+    text-align: center;
+
+}
+
+.contact h2 {
+    font-size: 3em;
+    margin-top: 40px;
+}
+
+/* formulär  */
+textarea, input {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+  form {
+      margin-top: 50px;
+  }
+
+  form input {
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width:131px;
+    width:29.4%;
+    background:rgba(244, 244, 244, 0.8);
+  }
+
+
+form textarea {
+  resize: none;
+  border: none;
+  height:150px;
+  max-width:402px;
+  width: 90%;
+  margin-bottom: 10px;
+  background:rgba(244, 244, 244, 0.8);
+}
+
+.btn-form
+{
+border: none;
+  padding:10px;
+  max-width: 402px;
+  width:90%;
+  color: black;
+  font-family: muli;
+  font-size: 16px;
+  background:rgba(244, 244, 244, 0.8);
 }
 
 
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+  
+  font-size: 16px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+ 
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+
+}
+
+
+footer {
+    min-height: 400px;
+    background: #363636;
+    color: #F4F4F4;
+}
+
+/* DESKTOP CSS */
+
+@media (min-width:800px) {
+   
+    .container-icons, .contact {
+display: flex;
+    }
+
+    .box {
+        flex:1;
+    }
+
+
+
+
+
+}
 
 /* MOBIL-MENY */
 
@@ -155,8 +259,6 @@ display: flex;
     }
 
 
-
-
     .navbar {
         flex-direction: column;
         align-items:flex-start;
@@ -171,11 +273,9 @@ display: flex;
     text-align: center;
 }
 
-
 .navbar-links li a {
     padding: .5rem 1rem;
 }
-
 
 .navbar-links.active {
     display:flex;
